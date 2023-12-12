@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigenere Cipher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vigenere Cipher</h1>
+        
+        <label for="key">Key / Kata Kunci =</label>
+        <input type="text" id="key" name="key" placeholder="Enter key">
+        
+        <label for="inputText">Input Text =</label>
+        <textarea id="inputText" name="inputText" rows="4" placeholder="Enter text to encrypt/decrypt"></textarea>
+        
+        <label for="outputText">Output Text =</label>
+        <textarea id="outputText" name="outputText" rows="4" readonly></textarea>
+        
+        <button onclick="encrypt()">Encrypt</button>
+        <button onclick="decrypt()">Decrypt</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
